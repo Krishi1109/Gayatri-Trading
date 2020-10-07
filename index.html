@@ -4,18 +4,29 @@
 <head>
   <meta charset="utf-8">
   <title>Gayatri trading</title>
+  <link rel="icon" href="images/logo2.png">
 
   <!-- css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 
   <!-- Javascript -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" language="javascript"></script>
+
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+         <script src="js/wow.min.js" type="text/javascript"></script>
+         <link href="css/animate.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript">
+           new WOW().init();
+      </script>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,7 +38,7 @@
 
 <body>
   <!-- top section -->
-  <section class="title">
+  <section id="title">
     <div class="container-fluid my-container-fluid">
       <nav class="navbar  navbar-expand-lg navbar-light">
         <a class="navbar-brand" href=""><img src="images/logo.png" height="70%" width="70%"></a>
@@ -37,46 +48,51 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link" href="#title">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
+              <a class="nav-link" href="#middle-container">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Download</a>
+              <a class="nav-link" href="#Footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
-    <hr>
+
     <div class="title-container">
-      <div class="row">
+      <!-- <h1 class="main-heading">Gayatri Trading</h1> -->
+      <hr>
+      <div class="row  wow animate__rotateInDownLeft "data-wow-duration="3s">
         <div class="title-image col-xs-12 col-sm-12 col-md-12 col-lg-6">
           <img src="https://www.abcmach.com/uploads/allimg/cooking-oil-manufacturing-factory.jpg" alt="" height="100%" width="100%">
         </div>
-        <div class="slogen col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
-          <h2 class="h2-main">Business has only two function, </h2>
-          <h2 class="h2-contain">Marketing & Innovation</h2>
+        <div class="slogen col-xs-12 col-sm-12 col-md-12 col-lg-6 wow animate__rotateInDownLeft" data-wow-duration="3s">
+          <h2 class="h2-main " >Business has only two function, </h2>
+          <h2 class="h2-contain ">Marketing & Innovation</h2>
         </div>
       </div>
     </div>
   </section>
   <!-- middle container -->
   <div id="middle-container">
-    <div class="Heading">
-      <h3><i class="fas fa-hand-point-down"></i> We sell this product. <i class="fas fa-hand-point-down"></i></h3>
+    <div class="Heading wow slideInRight" data-wow-duration="3s">
+      <h3><i class="fas fa-hand-point-down"></i class="wow slideInDown" data-wow-duration="3s"> We sell this product. <i class="fas fa-hand-point-down"></i></h3>
     </div>
     <div class="row ">
 
-      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
-        <div class="full feature_box for-hover">
-          <div class="full icon">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  wow animate__zoomIn "data-wow-duration="3s">
+        <div class="full feature_box for-hover wow animate__zoomIn" >
+          <div class="full icon " >
             <img class="default-block " src="https://5.imimg.com/data5/KQ/WN/MY-9806713/gulab-cotton-oil-250x250.png" alt="#" height="70%" width="95%">
             <img class="default-none " src="https://5.imimg.com/data5/KQ/WN/MY-9806713/gulab-cotton-oil-250x250.png" alt="#" height="70%" width="95%">
-            </div>
+          </div>
           <div class="">
-            <h4 class="h4-heading">Gulab groundnut oil</h4>
+            <h4 class="h4-heading wow rotateIn" data-wow-duration="3s">Gulab groundnut oil</h4>
           </div>
         </div>
       </div>
@@ -92,7 +108,7 @@
 
           </div>
           <div class="full">
-            <h4 class="h4-heading">gulab cottonseed oil</h4>
+            <h4 class="h4-heading wow rotateIn" data-wow-duration="3s">gulab cottonseed oil</h4>
           </div>
           <div class="full">
           </div>
@@ -111,7 +127,7 @@
 
           </div>
           <div class="full">
-            <h4 class="h4-heading ">Gulab Sunflower oil</h4>
+            <h4 class="h4-heading wow rotateIn" data-wow-duration="3s">Gulab Sunflower oil</h4>
           </div>
           <div class="full">
 
@@ -123,12 +139,12 @@
         <div class="full feature_box">
           <div class="full icon">
             <img class="default-block " src="https://3.imimg.com/data3/AC/YA/GLADMIN-13988303/aa-250x250.png" alt="#" height="50%" width="85%">
-              <img class="default-none " src="https://3.imimg.com/data3/AC/YA/GLADMIN-13988303/aa-250x250.png" alt="#" height="50%" width="85%">
+            <img class="default-none " src="https://3.imimg.com/data3/AC/YA/GLADMIN-13988303/aa-250x250.png" alt="#" height="50%" width="85%">
 
 
           </div>
           <div class="full">
-            <h4 class="h4-heading">gulab Corndrop oil</h4>
+            <h4 class="h4-heading wow rotateIn" data-wow-duration="3s">gulab Corndrop oil</h4>
           </div>
           <div class="full">
           </div>
@@ -147,7 +163,7 @@
 
           </div>
           <div class="full">
-            <h4 class="h4-heading">Rani groundnut oil</h4>
+            <h4 class="h4-heading wow rotateIn" data-wow-duration="3s">Rani groundnut oil</h4>
           </div>
           <div class="full">
           </div>
@@ -162,7 +178,7 @@
 
           </div>
           <div class="full">
-            <h4 class="h4-heading">Rani cottonseed oil</h4>
+            <h4 class="h4-heading wow rotateIn" data-wow-duration="3s">Rani cottonseed oil</h4>
           </div>
 
           <div class="full">
@@ -178,10 +194,10 @@
         <div class="full feature_box for-hover">
           <div class="full icon">
             <img class="default-block " src="https://m.media-amazon.com/images/S/aplus-media/vc/05c8f253-a28d-408a-ae83-c567f82ffd73.__CR0,0,970,300_PT0_SX970_V1___.jpg" alt="#" height="95%" width="95%">
-              <img class="default-none " src="https://m.media-amazon.com/images/S/aplus-media/vc/05c8f253-a28d-408a-ae83-c567f82ffd73.__CR0,0,970,300_PT0_SX970_V1___.jpg" alt="#" height="95%" width="95%">
+            <img class="default-none " src="https://m.media-amazon.com/images/S/aplus-media/vc/05c8f253-a28d-408a-ae83-c567f82ffd73.__CR0,0,970,300_PT0_SX970_V1___.jpg" alt="#" height="95%" width="95%">
           </div>
           <div class="full">
-            <h4 class="h4-heading">Fourtune Sunflower oil</h4>
+            <h4 class="h4-heading wow rotateIn" data-wow-duration="3s">Fourtune Sunflower oil</h4>
           </div>
           <div class="full">
 
@@ -192,54 +208,83 @@
   </div>
 
 
+  <div id="about-us">
+    <div class="row">
+      <div class="offset-lg-1 offset-md-1 offset-sm-1 col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+        <h1 class="main-about wow rotateIn" data-wow-duration="3s"><i class="fas fa-address-card"></i> About Us</h1>
+      </div>
+      <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 about-img">
+        <img  src="images/logo.png" alt="" height="80%" width="60%">
+      </div>
+
+    </div>
+
+    <div class="about-details offset-lg-1 offset-md-1 offset-sm-1 ">
+      <h4 class="about-title wow slideInLeft" data-wow-duration="3s">-Gayatri Trading</h4>
+      <h5 class="since-main wow slideInRight" data-wow-duration="3s">~Since 2005</h5><br>
+      <h4 class="medium about-name wow slideInLeft" data-wow-duration="3s">-RAJESHBHAI TANNA<i class="since">(Owner of Gayatri Tradings</i>)</h4>
+      <h6 class="wow slideInRight" data-wow-duration="3s"><i class="since-main">Mobile number:-9426780622</i></h6><br>
+      <hr>
+      <h5 class="medium about-slogen wow slideInRight" data-wow-duration="3s"><i>"NATURE'S PURITY WITH DELICIOUS TASTE...
+YOUR PREFERENCE, OUR PRIORITY"</i></h5>
+
+      <ul class="wow slideInLeft" data-wow-duration="3s">
+        <li class=" about-paragraph">Through Gayatri Trading, we have been doing an oil business for <b>last 15 years at Panchayat Chowk, Rajkot-360005.</b></li>
+        <li>We have always considered the quality and preference of our customers first. Specially on today's date, it is necessary to eat healthy food as well as it is equally difficult to choose pure and healthy oil. We assure you that we will give first priority to the health of your family with our best quality products. You can see the products we sell as above.</li>
+        <li>In this pandemic COVID-19 situation, we have chosen this medium to interact with our customers. We will be pleased to know about your point of view about our services, our product qualities. </li>
+        <li>We will try our best to consider your point of view and if it will be preferable, we will imply it in upcoming future.</li>
+        <li>Looking forward to serve you with the best quality.</li>
+        </ul>
+        <br>
+        <h5 class="about-slogen">If you have any kind of query or suggestions, you are most welcomed to share your suggestions bellow.</h5>
+        <!-- <button type="button" name="button" class="button wow rotateIn"data-wow-duration="3s">Suggestions</button><br> -->
+        <a href="mailto:tannakrishi1109@gmail.com" role="button" aria-pressed="true">
+                <button class="button wow rotateIn" data-wow-duration="3s"><i class="fas fa-user-graduate"></i></i>
+                Suggestions</button>
+              </a>
+<br>
+<h5 class="medium about-slogen">We would like to mention that we will recieve your orders only on call,<br>
+You can contact Mr.RAJESHBHAI TANNA for orders.</h5>
 
 
-  <footer class="footer-box my-footer">
-    <div class="container of">
 
-            <div class="heading_main contact-heading offset-lg-2 offset-md-2 offset-sm-2">
-              <h2><i class="fas fa-address-card"></i> Contact us</h2>
-            </div>
 
-      <div class="row">
 
-        <div class="offset-lg-2 offset-md-2 col-lg-4 col-md-4 col-sm-4 contact-subheading">
+    </div>
 
-            <p><i class="fas fa-map-marker-alt"></i> Address<br><small>Gayatri Trading,<br>Panchayat chowk,<br>university Road, Rajkot.</small></p>
+  </div>
+  <div id="Footer">
+    <footer class="footer-box my-footer">
+      <div class="container ">
 
+        <div class="heading_main contact-heading offset-lg-2 offset-md-2 offset-sm-2">
+          <h2 class="wow rotateIn" data-wow-duration="3s"><i class="fas fa-id-card-alt"></i></i> Contact us</h2>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 contact-subheading">
-
-            <p><i class="fas fa-mobile"></i> Phone<br><small>+91 94267-80622<br>+91 90677-18430<br>Monday - Sunday<br>08:45 am - 08:00 pm</small></p>
-
-        </div>
-
-      </div></small></p>
-
-
-
-        </div>
-
-
-
-
-
-
-    
+        <div class="row">
+          <div class="offset-lg-2 offset-md-2 col-lg-4 col-md-4 col-sm-4 contact-subheading">
+            <p class="wow slideInLeft" data-wow-duration="3s"><i class="fas fa-map-marker-alt"></i> Address<br><small>Gayatri Trading,<br>Panchayat chowk,<br>university Road, Rajkot.</small></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 contact-subheading">
+            <p class="wow slideInRight" data-wow-duration="3s"><i class="fas fa-mobile"></i> Phone<br><small>+91 94267-80622<br>+91 90677-18430<br>Monday - Sunday<br>08:45 am - 08:00 pm</small></p>
+          </div>
+        </div><br>
+        <h5 class="about-slogen offset-lg-2 offset-md-2">We will provide you best facilities with the help of your kind suggestions.</h5>
 
       </div>
-    </div>
-  </footer>
+    </footer>
+
+  </div>
+
   <!-- End Footer -->
 
-      <div class="row">
-        <div class="col-12">
-          <p class=" p-footer">© 2020 Krishi Tanna All rights reserved.</p>
-        </div>
-      </div>
+  <div class="row">
+    <div class="col-12">
+      <p class=" p-footer">© 2020 <a href="https://krishi1109.github.io/PersonalWebSite/">Krishi Tanna</a> All rights reserved. </p>
+    </div>
+  </div>
 
-</div>
+  </div>
 
 
 </body>
