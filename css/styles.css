@@ -250,7 +250,7 @@ border: 1px solid #1d4d73;
 
 }
 .opacity-img{
-  opacity: 0.5;
+  opacity: 0.7;
 
   max-width: 100%;
   min-width: inherit;
@@ -287,4 +287,13 @@ border: 1px solid #1d4d73;
 .top-design-i{
   background-color: white;
   padding: 2rem;
+}
+
+.map{
+  padding: 5rem 15rem;
+  align-items:  center;
+  background-color: #1d4d73
+}
+.map-2{
+  color: #d2d2d2;
 }
