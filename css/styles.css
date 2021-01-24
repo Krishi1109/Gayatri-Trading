@@ -2,8 +2,8 @@ body{
   margin: 0;
 }
 hr{
-  width: 70%;
-
+  width: 80%;
+border: 1px solid #1d4d73;
   display: block;
   font-weight: bold;
   background-color:#d2d2d2;
@@ -172,6 +172,7 @@ hr{
 }
 .about-slogen{
   font-weight: 500;
+  text-align: center;
 }
 .about-paragraph{
   font-weight:normal 200;
@@ -192,8 +193,7 @@ hr{
 }
 .contact-subheading{
   padding-top: 2rem;
-
-  text-align: left;
+  text-align:center;
 }
 .owner{
   text-align: center;
@@ -204,22 +204,54 @@ hr{
   margin: 0;
   font-weight:500;
   text-align: center;
-  padding: 1.5rem ;
+  padding: 2.5rem ;
   background-color: #d2d2d2;
   color: #1d4d73;
 }
+.p-about-footer{
+  margin: 0;
+  font-weight:500;
+  text-align: center;
+  padding: 2.5rem ;
+  background-color: #1d4d73;
+  color: #d2d2d2;
+}
 
+.footer-link{
+  color: #1d4d73;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.krishi{
+  padding-top:  2rem;
+  color: #1d4d73;
+}
+
+.footer-about-link{
+  color: #d2d2d2;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.krishi-about{
+  padding-top:  2rem;
+  color: #d2d2d2;
+}
 /* +++++++++++++++++++++++++ ABOUT ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .about-img-container{
   height: 20%;
-  padding: 1rem;
+
   position: relative;
 
 
 }
 .opacity-img{
   opacity: 0.5;
+
+  max-width: 100%;
+  min-width: inherit;
 }
 
 .about-title-img {
@@ -230,11 +262,27 @@ hr{
 }
 .about-heading-h1{
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .about-hr{
   background-color: #d2d2d2;
   padding: 0;
   margin: 0;
   text-align: center;
+}
+
+/* +++++++++++++++++++++++++++++Contact Us+++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.suggstion-contact{
+  padding: 2rem 2rem;
+  text-align: center;
+  background-color: #d2d2d2;
+  color: #1d4d73;
+}
+.top-design{
+  background-color: #d2d2d2;
+  padding: 2rem;
+}
+.top-design-i{
+  background-color: white;
+  padding: 2rem;
 }
