@@ -290,10 +290,19 @@ border: 1px solid #1d4d73;
 }
 
 .map{
-  padding: 5rem 15rem;
+  padding: 5rem 2rem;
   align-items:  center;
+  min-width: 50%;
   background-color: #1d4d73
 }
 .map-2{
   color: #d2d2d2;
+}
+
+.map-img{
+  max-width: 100%;
+}
+
+.googlemap{
+  width: 100%;
 }
